@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var progressBar: UIProgressView!
-    let eggTimes = ["Soft": 5,"Medium": 7,"Hard": 12]
+    let eggTimes = ["Soft": 5,"Medium": 7,"Hard": 7]
     var totalTime = 0
     var secondPassed = 0
     var timer = Timer()
